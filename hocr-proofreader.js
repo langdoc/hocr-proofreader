@@ -301,7 +301,8 @@ HocrProofreader.prototype.renderNodesRecursive = function (node, options, parent
                 var textNode = Util.createSvgElem('text', {
                     'x': options.bbox[0],
                     'y': parseFloat(options.baselineBbox[3]) + parseFloat(options.baseline[1]),
-                    'font-size': options.x_fsize * options.scan_res[1] / 72, // 1 pt = 1/72 inch
+                    'font-size': 12, // font size is set static for now
+                    // 'font-size': options.x_fsize * options.scan_res[1] / 72, // 1 pt = 1/72 inch
                     'textLength': options.bbox[2] - options.bbox[0],
                     'lengthAdjust': 'spacingAndGlyphs'
                 });

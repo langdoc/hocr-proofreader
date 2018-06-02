@@ -1,4 +1,4 @@
-This is Niko Partanen's fork of [hocr-proofread](https://github.com/not-implemented/hocr-proofreader). After comparing various editors out there, this seems like one that functions the best and is most maintainable, and further experimentation is now carried out to see how well it suits to proofreading some books on Uralic languages spokene in Russia. Since the books are rather large, the setup will be customized so that reading one book will work nicely.
+This is Niko Partanen's fork of [hocr-proofreader](https://github.com/not-implemented/hocr-proofreader). After comparing various editors out there, this seems like one that functions the best and is most maintainable, and further experimentation is now carried out to see how well it suits to proofreading some books on Uralic languages spokene in Russia. Since the books are rather large, the setup will be customized so that reading one book will work nicely.
 
 **Note:** The editor is set up to work with hOCR files that contain multiple pages. One way to get those out from Tesseract is to run it on a text file that had paths to individual pages:
 
